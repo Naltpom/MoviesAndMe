@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Search from './Components/Search/Search'
+import Search from './Components/Search'
 
 
 export default function App() {
@@ -16,9 +16,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#444',
   },
-  text: {
-    color: '#fff',
-  }
 });
