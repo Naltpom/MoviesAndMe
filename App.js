@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Search from './Components/Search/Search'
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>This is the content .!</Text>
-      <StatusBar style="auto" />
+      <Search/>
+
     </View>
   );
 }
@@ -15,8 +17,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#444',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textDecorationColor: '#fff',
   },
+  text: {
+    color: '#fff',
+  }
 });
